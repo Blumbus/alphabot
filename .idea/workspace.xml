@@ -66,8 +66,8 @@
       <file leaf-file-name="ship.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/commands/ship.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="8" column="40" lean-forward="false" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
+            <state relative-caret-position="288">
+              <caret line="16" column="37" lean-forward="false" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
@@ -452,7 +452,14 @@
       <option name="project" value="LOCAL" />
       <updated>1529564171430</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="ship 4">
+      <created>1529564882287</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1529564882287</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TodoView">
@@ -498,7 +505,8 @@
     <MESSAGE value="ship" />
     <MESSAGE value="ship 2" />
     <MESSAGE value="ship 3" />
-    <option name="LAST_COMMIT_MESSAGE" value="ship 3" />
+    <MESSAGE value="ship 4" />
+    <option name="LAST_COMMIT_MESSAGE" value="ship 4" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -938,8 +946,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/commands/ship.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="40" lean-forward="false" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
+        <state relative-caret-position="288">
+          <caret line="16" column="37" lean-forward="false" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>
