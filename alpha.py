@@ -13,6 +13,7 @@ async def on_message(message):
     if message.author == client.user:
         return
     serv = message.server.id
+    chan = message.channel.id
     if serv not in config.servers:
         return
 
@@ -25,25 +26,40 @@ async def on_message(message):
     words = message.content.split(' ', 1)
     if message.content.startswith(config.command_prefix):
         message.content = message.content[1:].strip()
+        words[0] = words[0][1:]
         print(message.content)
 
-        if random.random() < 0.08:
-            await client.send_message(message.channel, disobey.out(message))
+        if command_perms(message, words[0]):
+            if random.random() < 0.08:
+                await client.send_message(message.channel, disobey.out(message))
+            else:
+                if message.content.startswith('pickup'):
+                    await client.send_message(message.channel, pickup.out())
+                elif message.content.startswith('smut'):
+                    user = '-user' in message.content
+                    print(user)
+                    await client.send_message(message.channel, smut.out(message.server, user))
+                elif message.content.startswith('sniff'):
+                    await client.send_message(message.channel, sniff.out(primary.name))
         else:
-            if message.content.startswith('pickup'):
-                await client.send_message(message.channel, pickup.out())
-            elif message.content.startswith('smut'):
-                user = '-user' in message.content
-                print(user)
-                await client.send_message(message.channel, smut.out(message.server, user))
-            elif message.content.startswith('sniff'):
-                await client.send_message(message.channel, sniff.out(primary.name))
+            print('permission denied in channel!')
     test_content = message.content = message.clean_content.lower().strip()
     print(test_content)
-    if (test_content.startswith('is') or test_content.startswith('does') or test_content.startswith('am') or test_content.startswith('should') or test_content.startswith('are') or
+    '''if (test_content.startswith('is') or test_content.startswith('does') or test_content.startswith('am') or test_content.startswith('should') or test_content.startswith('are') or
             test_content.startswith('do') or test_content.startswith('was') or test_content.startswith('will') or test_content.startswith('were') or
             test_content.startswith('can') or test_content.startswith('did') or test_content.startswith('has') or test_content.startswith('could')) and test_content[len(message.content)-1] == '?':
-        await client.send_message(message.channel, question.out())
+        await client.send_message(message.channel, question.out())'''
+
+
+def command_perms(msg, cmd):
+    perm = cmd
+    if perm not in config.servers[msg.server.id]['commands']:
+        perm = 'default'
+    if config.servers[msg.server.id]['commands'][perm] == 'all':
+        return True
+    if msg.channel.id in config.servers[msg.server.id]['commands'][perm]['white']:
+        return True
+    return False
 
 
 @client.event
