@@ -13,7 +13,7 @@ def out(thing1, thing2):
         name2 = thing2.id
         disp2 = thing2.display_name
     v = sum(ord(x) for x in name1) + sum(ord(x) for x in name2)
-    random.seed = v
+    random.seed(v)
     r = random.random() * 100
     print(r)
     val = round(r)
