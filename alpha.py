@@ -1,4 +1,3 @@
-# https://github.com/Rapptz/discord.py/blob/async/examples/reply.py
 import discord
 from commands import *
 from settings import *
@@ -12,6 +11,9 @@ client = discord.Client()
 async def on_message(message):
     # we do not want the bot to reply to itself
     if message.author == client.user:
+        return
+    serv = message.server.id
+    if serv not in config.servers:
         return
 
     usrs = message.mentions
