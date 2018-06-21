@@ -33,14 +33,25 @@ async def on_message(message):
             if random.random() < 0.08:
                 await client.send_message(message.channel, disobey.out(message))
             else:
-                if message.content.startswith('pickup'):
+                if words[0] == 'pickup':
                     await client.send_message(message.channel, pickup.out())
-                elif message.content.startswith('smut'):
+                elif words[0] == 'smut':
                     user = '-user' in message.content
                     print(user)
                     await client.send_message(message.channel, smut.out(message.server, user))
-                elif message.content.startswith('sniff'):
+                elif words[0] == 'sniff':
                     await client.send_message(message.channel, sniff.out(primary.name))
+                elif words[0] == 'ship':
+                    if len(usrs) < 1:
+                        await client.send_message(message.channel, 'Please specify at least one thing to ship.')
+                    else:
+                        if len(usrs) == 1:
+                            thing1 = message.author
+                            thing2 = usrs[0]
+                        else:
+                            thing1 = usrs[0]
+                            thing2 = usrs[1]
+                        await client.send_message(message.channel, ship.out(thing1, thing2))
         else:
             print('permission denied in channel!')
     test_content = message.content = message.clean_content.lower().strip()
@@ -64,7 +75,7 @@ def command_perms(msg, cmd):
 
 @client.event
 async def on_member_join(member):
-    await client.send_message(member.server.get_channel(config.servers[member.server.id]['main']), greet.out(member.id))
+    await client.send_message(member.server.get_channel(config.servers[member.server.id]['greet']), greet.out(member.id))
 
 @client.event
 async def on_ready():

@@ -1,1 +1,1 @@
-__all__ = ['pickup', 'smut', 'question', 'sniff', 'disobey', 'greet']
+__all__ = ['pickup', 'smut', 'question', 'sniff', 'disobey', 'greet', 'ship']
