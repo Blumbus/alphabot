@@ -14,5 +14,7 @@ def out(thing1, thing2):
         disp2 = thing2.display_name
     v = sum(ord(x) for x in name1) + sum(ord(x) for x in name2)
     random.seed = v
-    val = round(random.random() * 100)
+    r = random.random() * 100
+    print(r)
+    val = round(r)
     return '**' + str(disp1) + '** and **' + str(disp2) + '**... a ' + str(val) + '% ship rate!'
