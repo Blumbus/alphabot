@@ -29,7 +29,7 @@ async def on_message(message):
         words[0] = words[0][1:]
         for user in message.mentions:
             for i in range(0, len(words)):
-                if words[i] == '<@!' + user.id + '>':
+                if words[i] == '<@' + user.id + '>':
                     words[i] = user
         new_words = []
         bracc_start = -1

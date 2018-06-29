@@ -4,11 +4,6 @@
     <list default="true" id="e266b905-37e8-4fcd-a917-cc6c08526c7e" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/alpha.py" afterPath="$PROJECT_DIR$/alpha.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/commands/disobey.py" afterPath="$PROJECT_DIR$/commands/disobey.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/commands/greet.py" afterPath="$PROJECT_DIR$/commands/greet.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/commands/ship.py" afterPath="$PROJECT_DIR$/commands/ship.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/commands/sniff.py" afterPath="$PROJECT_DIR$/commands/sniff.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/settings/config.py" afterPath="$PROJECT_DIR$/settings/config.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -40,7 +35,7 @@
       <file leaf-file-name="alpha.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/alpha.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-43">
+            <state relative-caret-position="360">
               <caret line="54" column="25" lean-forward="false" selection-start-line="54" selection-start-column="25" selection-end-line="54" selection-end-column="25" />
               <folding>
                 <element signature="e#0#14#0" expanded="true" />
@@ -92,8 +87,8 @@
       <file leaf-file-name="ship.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/commands/ship.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="14" column="63" lean-forward="true" selection-start-line="14" selection-start-column="63" selection-end-line="14" selection-end-column="63" />
+            <state relative-caret-position="480">
+              <caret line="20" column="16" lean-forward="true" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
@@ -181,8 +176,8 @@
         <option value="$PROJECT_DIR$/commands/greet.py" />
         <option value="$PROJECT_DIR$/commands/disobey.py" />
         <option value="$PROJECT_DIR$/commands/sniff.py" />
-        <option value="$PROJECT_DIR$/alpha.py" />
         <option value="$PROJECT_DIR$/commands/ship.py" />
+        <option value="$PROJECT_DIR$/alpha.py" />
       </list>
     </option>
   </component>
@@ -509,7 +504,14 @@
       <option name="project" value="LOCAL" />
       <updated>1529565740524</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="redone quotes&#10;ship flexibility&#10;combine words with []">
+      <created>1530230713567</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1530230713567</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TodoView">
@@ -559,7 +561,8 @@
     <MESSAGE value="ship 5" />
     <MESSAGE value="ship 6" />
     <MESSAGE value="ship 7" />
-    <option name="LAST_COMMIT_MESSAGE" value="ship 7" />
+    <MESSAGE value="redone quotes&#10;ship flexibility&#10;combine words with []" />
+    <option name="LAST_COMMIT_MESSAGE" value="redone quotes&#10;ship flexibility&#10;combine words with []" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -935,16 +938,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/alpha.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-43">
-          <caret line="54" column="25" lean-forward="false" selection-start-line="54" selection-start-column="25" selection-end-line="54" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/commands/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -987,10 +980,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/alpha.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="54" column="25" lean-forward="false" selection-start-line="54" selection-start-column="25" selection-end-line="54" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/commands/ship.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="14" column="63" lean-forward="true" selection-start-line="14" selection-start-column="63" selection-end-line="14" selection-end-column="63" />
+        <state relative-caret-position="480">
+          <caret line="20" column="16" lean-forward="true" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>
