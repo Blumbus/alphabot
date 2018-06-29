@@ -1,7 +1,7 @@
 import random
 
-grs = ['Welcome, %USER%', 'Hey there, %USER%', 'Henlo %USER%', '%USER% isn\'t who you think they are. But they\'re here now.', 'Look who it is! %USER% from... you-know-where.',
-'Did you take a shower today, %USER%?', 'I don\'t remember seeing you before, %USER%. You must be new.']
+grs = ['Welcome, %USER%, watch your step', 'Hey there, %USER%', 'Nice to see yoy, %USER%', '%USER%, do I know you?', 'Ah, welcome home, %USER%',
+'Did you take a shower today, %USER%?', 'Did you bring your pride, %USER%?']
 
 def out(id):
     g = random.choice(grs)

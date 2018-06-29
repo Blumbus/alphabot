@@ -2,7 +2,9 @@ import random
 import commands
 import discord
 
-dis = ['I\'d rather not deal with you right now.', 'You\'re bothering me.', 'Did you say something?']
+dis = ['I\'d rather not deal with you right now.', 'Didn\'t Papa teach you to ask nicely?', 'Shouldn\'t you be playing with the other humans?',
+       'No thanks.', 'You aren\'t Papa, sorry.', 'I\'m busy, sorry.', 'Could you repeat that?', '... Excuse me?', 'Sorry, I didn\'t catch that.',
+       'Try again.', 'Why is this my problem?', 'Did Papa send you?', 'Why should I?']
 
 options = ['dis', 'cmd']
 
@@ -10,10 +12,9 @@ cmds = ['sniff', 'pickup']
 
 def out(message):
     opt = random.choice(options)
-    st = 'Don\'t tell me what to do.\n'
-    if opt == 'dis':
-        st += random.choice(dis)
-    elif opt == 'cmd':
+    st = random.choice(dis)
+    if opt == 'cmd':
+        st += '\n'
         c = random.choice(cmds)
         if c == 'sniff':
             st += commands.sniff.out(message.author.name)
