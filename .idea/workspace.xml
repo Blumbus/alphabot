@@ -2,389 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e266b905-37e8-4fcd-a917-cc6c08526c7e" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/auth.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/auth_handler.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/awslambda/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/awslambda/exceptions.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/awslambda/layer1.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/beanstalk/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/beanstalk/exception.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/beanstalk/layer1.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/beanstalk/response.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/beanstalk/wrapper.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/cacerts/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/cacerts/cacerts.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/cloudformation/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/cloudformation/connection.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/cloudformation/stack.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/cloudformation/template.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/cloudfront/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/cloudfront/distribution.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/cloudfront/exception.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/cloudfront/identity.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/cloudfront/invalidation.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/cloudfront/logging.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/cloudfront/object.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/cloudfront/origin.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/cloudfront/signers.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/cloudhsm/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/cloudhsm/exceptions.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/cloudhsm/layer1.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/cloudsearch/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/cloudsearch/document.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/cloudsearch/domain.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/cloudsearch/layer1.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/cloudsearch/layer2.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/cloudsearch/optionstatus.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/cloudsearch/search.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/cloudsearch/sourceattribute.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/cloudsearch2/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/cloudsearch2/document.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/cloudsearch2/domain.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/cloudsearch2/exceptions.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/cloudsearch2/layer1.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/cloudsearch2/layer2.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/cloudsearch2/optionstatus.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/cloudsearch2/search.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/cloudsearchdomain/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/cloudsearchdomain/exceptions.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/cloudsearchdomain/layer1.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/cloudtrail/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/cloudtrail/exceptions.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/cloudtrail/layer1.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/codedeploy/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/codedeploy/exceptions.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/codedeploy/layer1.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/cognito/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/cognito/identity/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/cognito/identity/exceptions.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/cognito/identity/layer1.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/cognito/sync/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/cognito/sync/exceptions.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/cognito/sync/layer1.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/compat.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/configservice/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/configservice/exceptions.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/configservice/layer1.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/connection.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/contrib/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/contrib/ymlmessage.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/datapipeline/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/datapipeline/exceptions.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/datapipeline/layer1.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/directconnect/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/directconnect/exceptions.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/directconnect/layer1.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/dynamodb/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/dynamodb/batch.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/dynamodb/condition.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/dynamodb/exceptions.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/dynamodb/item.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/dynamodb/layer1.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/dynamodb/layer2.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/dynamodb/schema.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/dynamodb/table.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/dynamodb/types.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/dynamodb2/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/dynamodb2/exceptions.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/dynamodb2/fields.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/dynamodb2/items.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/dynamodb2/layer1.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/dynamodb2/results.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/dynamodb2/table.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/dynamodb2/types.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/ec2/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/ec2/address.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/ec2/attributes.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/ec2/autoscale/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/ec2/autoscale/activity.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/ec2/autoscale/group.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/ec2/autoscale/instance.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/ec2/autoscale/launchconfig.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/ec2/autoscale/limits.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/ec2/autoscale/policy.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/ec2/autoscale/request.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/ec2/autoscale/scheduled.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/ec2/autoscale/tag.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/ec2/blockdevicemapping.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/ec2/bundleinstance.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/ec2/buyreservation.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/ec2/cloudwatch/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/ec2/cloudwatch/alarm.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/ec2/cloudwatch/datapoint.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/ec2/cloudwatch/dimension.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/ec2/cloudwatch/listelement.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/ec2/cloudwatch/metric.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/ec2/connection.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/ec2/ec2object.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/ec2/elb/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/ec2/elb/attributes.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/ec2/elb/healthcheck.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/ec2/elb/instancestate.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/ec2/elb/listelement.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/ec2/elb/listener.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/ec2/elb/loadbalancer.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/ec2/elb/policies.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/ec2/elb/securitygroup.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/ec2/group.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/ec2/image.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/ec2/instance.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/ec2/instanceinfo.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/ec2/instancestatus.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/ec2/instancetype.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/ec2/keypair.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/ec2/launchspecification.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/ec2/networkinterface.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/ec2/placementgroup.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/ec2/regioninfo.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/ec2/reservedinstance.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/ec2/securitygroup.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/ec2/snapshot.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/ec2/spotdatafeedsubscription.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/ec2/spotinstancerequest.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/ec2/spotpricehistory.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/ec2/tag.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/ec2/volume.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/ec2/volumestatus.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/ec2/zone.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/ec2containerservice/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/ec2containerservice/exceptions.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/ec2containerservice/layer1.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/ecs/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/ecs/item.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/elasticache/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/elasticache/layer1.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/elastictranscoder/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/elastictranscoder/exceptions.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/elastictranscoder/layer1.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/emr/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/emr/bootstrap_action.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/emr/connection.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/emr/emrobject.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/emr/instance_group.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/emr/step.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/endpoints.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/endpoints.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/exception.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/file/README" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/file/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/file/bucket.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/file/connection.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/file/key.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/file/simpleresultset.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/fps/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/fps/connection.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/fps/exception.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/fps/response.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/glacier/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/glacier/concurrent.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/glacier/exceptions.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/glacier/job.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/glacier/layer1.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/glacier/layer2.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/glacier/response.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/glacier/utils.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/glacier/vault.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/glacier/writer.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/gs/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/gs/acl.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/gs/bucket.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/gs/bucketlistresultset.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/gs/connection.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/gs/cors.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/gs/key.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/gs/lifecycle.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/gs/resumable_upload_handler.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/gs/user.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/handler.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/https_connection.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/iam/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/iam/connection.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/iam/summarymap.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/jsonresponse.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/kinesis/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/kinesis/exceptions.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/kinesis/layer1.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/kms/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/kms/exceptions.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/kms/layer1.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/logs/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/logs/exceptions.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/logs/layer1.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/machinelearning/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/machinelearning/exceptions.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/machinelearning/layer1.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/manage/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/manage/cmdshell.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/manage/propget.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/manage/server.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/manage/task.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/manage/test_manage.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/manage/volume.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/mashups/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/mashups/interactive.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/mashups/iobject.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/mashups/order.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/mashups/server.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/mturk/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/mturk/connection.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/mturk/layoutparam.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/mturk/notification.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/mturk/price.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/mturk/qualification.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/mturk/question.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/mws/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/mws/connection.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/mws/exception.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/mws/response.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/opsworks/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/opsworks/exceptions.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/opsworks/layer1.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/plugin.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/provider.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/pyami/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/pyami/bootstrap.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/pyami/config.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/pyami/copybot.cfg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/pyami/copybot.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/pyami/helloworld.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/pyami/installers/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/pyami/installers/ubuntu/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/pyami/installers/ubuntu/apache.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/pyami/installers/ubuntu/ebs.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/pyami/installers/ubuntu/installer.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/pyami/installers/ubuntu/mysql.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/pyami/installers/ubuntu/trac.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/pyami/launch_ami.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/pyami/scriptbase.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/pyami/startup.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/rds/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/rds/dbinstance.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/rds/dbsecuritygroup.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/rds/dbsnapshot.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/rds/dbsubnetgroup.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/rds/event.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/rds/logfile.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/rds/optiongroup.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/rds/parametergroup.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/rds/regioninfo.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/rds/statusinfo.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/rds/vpcsecuritygroupmembership.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/rds2/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/rds2/exceptions.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/rds2/layer1.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/redshift/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/redshift/exceptions.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/redshift/layer1.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/regioninfo.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/requestlog.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/resultset.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/roboto/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/roboto/awsqueryrequest.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/roboto/awsqueryservice.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/roboto/param.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/route53/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/route53/connection.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/route53/domains/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/route53/domains/exceptions.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/route53/domains/layer1.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/route53/exception.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/route53/healthcheck.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/route53/hostedzone.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/route53/record.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/route53/status.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/route53/zone.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/s3/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/s3/acl.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/s3/bucket.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/s3/bucketlistresultset.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/s3/bucketlogging.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/s3/connection.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/s3/cors.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/s3/deletemarker.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/s3/key.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/s3/keyfile.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/s3/lifecycle.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/s3/multidelete.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/s3/multipart.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/s3/prefix.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/s3/resumable_download_handler.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/s3/tagging.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/s3/user.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/s3/website.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/sdb/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/sdb/connection.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/sdb/db/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/sdb/db/blob.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/sdb/db/key.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/sdb/db/manager/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/sdb/db/manager/sdbmanager.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/sdb/db/manager/xmlmanager.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/sdb/db/model.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/sdb/db/property.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/sdb/db/query.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/sdb/db/sequence.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/sdb/db/test_db.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/sdb/domain.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/sdb/item.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/sdb/queryresultset.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/sdb/regioninfo.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/services/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/services/bs.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/services/message.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/services/result.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/services/service.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/services/servicedef.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/services/sonofmmm.cfg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/services/sonofmmm.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/services/submit.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/ses/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/ses/connection.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/ses/exceptions.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/sns/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/sns/connection.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/sqs/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/sqs/attributes.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/sqs/batchresults.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/sqs/bigmessage.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/sqs/connection.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/sqs/jsonmessage.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/sqs/message.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/sqs/messageattributes.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/sqs/queue.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/sqs/regioninfo.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/storage_uri.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/sts/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/sts/connection.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/sts/credentials.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/support/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/support/exceptions.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/support/layer1.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/swf/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/swf/exceptions.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/swf/layer1.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/swf/layer1_decisions.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/swf/layer2.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/utils.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/vendored/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/vendored/regions/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/vendored/regions/exceptions.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/vendored/regions/regions.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/vendored/six.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/vpc/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/vpc/customergateway.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/vpc/dhcpoptions.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/vpc/internetgateway.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/vpc/networkacl.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/vpc/routetable.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/vpc/subnet.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/vpc/vpc.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/vpc/vpc_peering_connection.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/vpc/vpnconnection.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boto/vpc/vpngateway.py" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/commands/rate.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/alpha.py" afterPath="$PROJECT_DIR$/alpha.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/commands/__init__.py" afterPath="$PROJECT_DIR$/commands/__init__.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -413,24 +34,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="alpha.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="alpha.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/alpha.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="24" column="44" lean-forward="true" selection-start-line="24" selection-start-column="44" selection-end-line="24" selection-end-column="44" />
+            <state relative-caret-position="666">
+              <caret line="88" column="87" lean-forward="true" selection-start-line="88" selection-start-column="87" selection-end-line="88" selection-end-column="87" />
               <folding>
                 <element signature="e#0#14#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/private/__init__.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="26" lean-forward="false" selection-start-line="0" selection-start-column="26" selection-end-line="0" selection-end-column="26" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -440,16 +51,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="8" lean-forward="false" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="8" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/settings/__init__.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="18">
-              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -475,11 +76,33 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/commands/__init__.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="85" lean-forward="true" selection-start-line="0" selection-start-column="85" selection-end-line="0" selection-end-column="85" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="rate.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/commands/rate.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="612">
+              <caret line="34" column="67" lean-forward="true" selection-start-line="34" selection-start-column="67" selection-end-line="34" selection-end-column="67" />
+              <folding>
+                <element signature="e#0#13#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="ship.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/commands/ship.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="20" column="16" lean-forward="false" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
+            <state relative-caret-position="342">
+              <caret line="19" column="73" lean-forward="true" selection-start-line="19" selection-start-column="73" selection-end-line="19" selection-end-column="73" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
@@ -541,7 +164,6 @@
         <option value="$PROJECT_DIR$/runtime.txt" />
         <option value="$PROJECT_DIR$/requirements.txt" />
         <option value="$PROJECT_DIR$/commands/config.py" />
-        <option value="$PROJECT_DIR$/commands/__init__.py" />
         <option value="$PROJECT_DIR$/settings/config.py" />
         <option value="$PROJECT_DIR$/commands/greet.py" />
         <option value="$PROJECT_DIR$/commands/disobey.py" />
@@ -551,7 +173,9 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/private/__init__.py" />
         <option value="$PROJECT_DIR$/private/private_vars.py" />
+        <option value="$PROJECT_DIR$/commands/__init__.py" />
         <option value="$PROJECT_DIR$/alpha.py" />
+        <option value="$PROJECT_DIR$/commands/rate.py" />
       </list>
     </option>
   </component>
@@ -947,7 +571,14 @@
       <option name="project" value="LOCAL" />
       <updated>1530826415452</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="clean heroku token&#10;ship nickname fix">
+      <created>1530827040131</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1530827040131</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TodoView">
@@ -1004,23 +635,14 @@
     <MESSAGE value="heroku token 1" />
     <MESSAGE value="heroku token 2" />
     <MESSAGE value="heroku token 3" />
-    <option name="LAST_COMMIT_MESSAGE" value="heroku token 3" />
+    <MESSAGE value="clean heroku token&#10;ship nickname fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="clean heroku token&#10;ship nickname fix" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/commands/smut.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="810">
-          <caret line="46" column="9" lean-forward="false" selection-start-line="46" selection-start-column="9" selection-end-line="46" selection-end-column="9" />
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/commands/sniff.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
@@ -1339,26 +961,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/commands/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="75" lean-forward="false" selection-start-line="0" selection-start-column="75" selection-end-line="0" selection-end-column="75" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/settings/config.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
           <caret line="9" column="54" lean-forward="false" selection-start-line="9" selection-start-column="54" selection-end-line="9" selection-end-column="54" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/commands/greet.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" column="74" lean-forward="false" selection-start-line="3" selection-start-column="74" selection-end-line="3" selection-end-column="74" />
           <folding />
         </state>
       </provider>
@@ -1381,14 +987,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/private/private_vars.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="20" lean-forward="false" selection-start-line="0" selection-start-column="20" selection-end-line="0" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/boto/gs/acl.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
@@ -1405,10 +1003,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/private/private_vars.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="8" lean-forward="false" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="8" />
+          <caret line="0" column="20" lean-forward="false" selection-start-line="0" selection-start-column="20" selection-end-line="0" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/commands/greet.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="74" lean-forward="false" selection-start-line="3" selection-start-column="74" selection-end-line="3" selection-end-column="74" />
           <folding />
         </state>
       </provider>
@@ -1421,22 +1027,48 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="8" lean-forward="false" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alpha.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="666">
+          <caret line="88" column="87" lean-forward="true" selection-start-line="88" selection-start-column="87" selection-end-line="88" selection-end-column="87" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/commands/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="85" lean-forward="true" selection-start-line="0" selection-start-column="85" selection-end-line="0" selection-end-column="85" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/commands/ship.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="20" column="16" lean-forward="false" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
+        <state relative-caret-position="342">
+          <caret line="19" column="73" lean-forward="true" selection-start-line="19" selection-start-column="73" selection-end-line="19" selection-end-column="73" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/alpha.py">
+    <entry file="file://$PROJECT_DIR$/commands/rate.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="24" column="44" lean-forward="true" selection-start-line="24" selection-start-column="44" selection-end-line="24" selection-end-column="44" />
+        <state relative-caret-position="612">
+          <caret line="34" column="67" lean-forward="true" selection-start-line="34" selection-start-column="67" selection-end-line="34" selection-end-column="67" />
           <folding>
-            <element signature="e#0#14#0" expanded="true" />
+            <element signature="e#0#13#0" expanded="true" />
           </folding>
         </state>
       </provider>

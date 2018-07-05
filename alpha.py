@@ -70,7 +70,6 @@ async def on_message(message):
                 elif words[0] == 'sniff':
                     await client.send_message(message.channel, sniff.out(primary.name))
                 elif words[0] == 'ship':
-                    print('len: ' + str(len(words)))
                     if len(words) < 2:
                         await client.send_message(message.channel, 'Please specify at least one thing to ship.')
                     else:
@@ -83,6 +82,11 @@ async def on_message(message):
                             thing1 = words[1]
                             thing2 = words[2]
                         await client.send_message(message.channel, ship.out(thing1, thing2))
+                elif words[0] == 'rate':
+                    if (len(words)) < 2:
+                        await client.send_message(message.channel, 'You\'ll have to give me something to rate.')
+                    else:
+                        await client.send_message(message.channel, rate.out(words[1:]))
         else:
             print('permission denied in channel!')
     if command_perms(message, 'chat'):
