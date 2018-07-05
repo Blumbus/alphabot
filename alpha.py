@@ -4,7 +4,7 @@ from settings import *
 from private import *
 import random
 
-token = private_vars.token
+#token = private_vars.token
 
 client = discord.Client()
 
