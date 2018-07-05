@@ -1,9 +1,10 @@
 import discord
 from commands import *
 from settings import *
+from private import *
 import random
 
-TOKEN = 'NDMzODQwMTU1MjU5MDQzODUw.DbBs2g.3dtafJ1z0y8eEsp3cgnu80Ebau8'
+token = private_vars.token
 
 client = discord.Client()
 
@@ -112,4 +113,4 @@ async def on_ready():
     print(client.user.id)
     print('------')
 
-client.run(TOKEN)
+client.run(token)
