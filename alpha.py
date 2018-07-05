@@ -1,10 +1,14 @@
 import discord
+from boto.s3.connection import S3Connection
+import os
 from commands import *
 from settings import *
 from private import *
 import random
 
 #token = private_vars.token
+#s3 = S3Connection(os.environ['S3_KEY'], os.environ['S3_SECRET'])
+token = os.environ['token']
 
 client = discord.Client()
 
