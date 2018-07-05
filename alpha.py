@@ -3,7 +3,7 @@ import discord
 import os
 from commands import *
 from settings import *
-from private import *
+#from private import *
 import random
 
 #token = private_vars.token
