@@ -1,13 +1,10 @@
 import discord
-#from boto.s3.connection import S3Connection
 import os
 from commands import *
 from settings import *
 #from private import *
 import random
 
-#token = private_vars.token
-#s3 = S3Connection(os.environ['S3_KEY'], os.environ['S3_SECRET'])
 token = os.environ['token']
 
 client = discord.Client()
@@ -25,6 +22,7 @@ async def on_message(message):
     usrs = message.mentions
     primary = message.author
     message.content = message.content.lower().strip()
+    print('Raw content: ' + message.content)
     if len(usrs) > 0:
         primary = usrs[0]
     words = []
@@ -34,7 +32,7 @@ async def on_message(message):
         words[0] = words[0][1:]
         for user in message.mentions:
             for i in range(0, len(words)):
-                if words[i] == '<@' + user.id + '>':
+                if words[i] == '<@' + user.id + '>' or words[i] == '<@!' + user.id + '>':
                     words[i] = user
         new_words = []
         bracc_start = -1
