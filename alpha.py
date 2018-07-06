@@ -67,7 +67,7 @@ async def on_message(message):
                     if len(words) >= 2 and isinstance(words[1], discord.User):
                         await client.send_message(message.channel, sniff.out(words[1]))
                     else:
-                        await client.send_message('Next time, please specify someone for me to sniff.')
+                        await client.send_message(message.channel, 'Next time, please specify someone for me to sniff.')
                 elif words[0] == 'ship':
                     if len(words) < 2:
                         await client.send_message(message.channel, 'Please specify at least one thing to ship.')
