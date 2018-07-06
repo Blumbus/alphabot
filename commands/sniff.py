@@ -1,16 +1,19 @@
 import random
+import discord
+import datetime
 
-smells = ['Smells like trash.', 'What a wonderful scent!', 'Good enough.', 'A bit spicy.', 'A bit dry.', 'A bit sour.', 'A tad bitter.', 'Too sweet.',
-          'Salty.', 'Like body odor.', 'Unappealing.', 'Smells a bit... nutty.', 'Toasted too long.',
-          'Burnt flesh? Hmm...', 'Familiar.', 'I caught a whiff of chocolate.', 'Too vanilla for me.',
-          'Smells like disappointment.', '(sneezes)', 'Smoking is bad for you.',
-          'Are you old enough to drink?', 'Do I smell watermelon?', '... Whatever I smell, it\'s bad.',
-          'Did you forget your deodorant?', 'That\'s some cheap cologne.', 'Smells like a secret.',
-          'You should take a shower.', 'You smell... *nice*.', 'That\'s a human alright.',
-          'Humans smell interesting.', 'I\'ve smelled worse... I guess.', 'Cheese, eh?',
-          'You have a lot of potential.', 'Smells like jealousy.', 'Smells like lust.', 'Smells like greed.',
-          'Let me get a... *closer* sniff.']
+smells = ['Smells like cheese.', 'Smoking is bad for you.', 'Are you old enough to drink?', 'Do I smell watermelon?',
+          '... Whatever I smell, it\'s bad.', 'Did you put on deodorant yet?', 'You\'re wearing cheap cologne.',
+          '(sneezes)', '(coughs)', 'Ugh...', '(leans away immediately)', 'Smells like a secret.',
+          'You should take a shower.', 'Heh... you smell nice.', 'That\'s a human, alright.',
+          'Humans smell interesting.', 'I\'ve smelled worse, I guess.', '(sniffs more)', '(sniffs closer)',
+          '(sniffs from a different angle)', 'Chocolate, eh?', 'You have a lot of potential.',
+          'Hey, come back.', 'Smells like jealousy.', 'Smells good.', 'This is... the scent of a loser...',
+          'You missed your morning coffee.', 'Stress doesn\'t smell good.', 'Oooh... sweet.', 'That\'s spicy.',
+          'Fruity! Like you!', 'Brush your teeth!', 'Floral perfume!', 'Ah, sour attitude.',
+          'Dry, like your humor.', 'Been drinking again, I see.', 'You must be a good cook... or know one.',
+          'Better head to a laundromat.', 'I want some of that... no, not like that! What you ate!']
 
-def out(username):
-    random.seed(abs(hash(username)))
-    return '**' + str(username) + '**... ' + random.choice(smells)
+def out(user):
+    random.seed(sum(ord(x) for x in user.id)) + int(datetime.datetime.now().strftime("%Y%m%d"))
+    return '**' + str(user.display_name) + '**... ' + random.choice(smells)

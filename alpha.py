@@ -61,14 +61,13 @@ async def on_message(message):
             if random.random() < 0.08:
                 await client.send_message(message.channel, disobey.out(message))
             else:
-                if words[0] == 'pickup':
-                    await client.send_message(message.channel, pickup.out())
-                elif words[0] == 'smut':
-                    user = '-user' in message.content
-                    print(user)
-                    await client.send_message(message.channel, smut.out(message.server, user))
+                if words[0] == 'pickup' or words[0] == 'flirt':
+                    await client.send_message(message.channel, pickup.out(stringify_words(words)))
                 elif words[0] == 'sniff':
-                    await client.send_message(message.channel, sniff.out(primary.name))
+                    if len(words) >= 2 and isinstance(words[1], discord.User):
+                        await client.send_message(message.channel, sniff.out(words[1]))
+                    else:
+                        await client.send_message('Next time, please specify someone for me to sniff.')
                 elif words[0] == 'ship':
                     if len(words) < 2:
                         await client.send_message(message.channel, 'Please specify at least one thing to ship.')
@@ -96,7 +95,17 @@ async def on_message(message):
                 test_content.startswith('do') or test_content.startswith('was') or test_content.startswith('will') or test_content.startswith('were') or
                 test_content.startswith('can') or test_content.startswith('did') or test_content.startswith('has') or test_content.startswith('could')) and test_content[len(message.content)-1] == '?':
             await client.send_message(message.channel, question.out())
+        elif 'good bot' in test_content:
+            await client.send_message(message.channel, 'Good human.')
+        elif 'bad bot' in test_content:
+            await client.send_message(message.channel, 'Bad human.')
 
+
+def stringify_words(words):
+    for w in words:
+        if isinstance(w, discord.User):
+            w = str(w.id)
+    return words
 
 def command_perms(msg, cmd):
     perm = cmd
