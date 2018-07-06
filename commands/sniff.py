@@ -17,5 +17,5 @@ smells = ['Smells like cheese.', 'Smoking is bad for you.', 'Are you old enough 
 def out(user):
     print('datetime: ' + str(int(datetime.datetime.now().strftime("%Y%m%d"))))
     print('idk: ' + str(sum(ord(x) for x in user.id)))
-    random.seed(sum(ord(x) for x in user.id)) + int(datetime.datetime.now().strftime("%Y%m%d"))
+    random.seed(int(sum(ord(x) for x in user.id))) + int(datetime.datetime.now().strftime("%Y%m%d"))
     return '**' + str(user.display_name) + '**... ' + random.choice(smells)
