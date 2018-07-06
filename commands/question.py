@@ -8,7 +8,8 @@ maybe = ['You already know the answer.', 'I\'d love to answer, but that\'s confi
            'You don\'t have anyone else to talk to, do you?',
            'It\'s fine to admit you don\'t have anything else to do.']
 
-conf = ['Affirmative.', 'Negative.', 'Perhaps...', 'You wish.', 'If only.', 'Of course.', 'I suppose.', 'Yes?', 'No?']
+conf = ['Yes.', 'No.', 'Perhaps...', 'You wish.', 'If only.', 'Of course.', 'I suppose.', 'Yes?', 'No?',
+        'Nah.', 'Yeah.', 'Maybe.', 'I don\'t know.', '(nodding)', '(shakes head)', 'Nope.', 'Yep.']
 
 def out():
     ret = ''
